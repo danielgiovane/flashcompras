@@ -1,14 +1,14 @@
 "use client"
 
 import { useState, useRef, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Zap, ShoppingCart, TrendingUp, Package, Star, ChevronDown, Menu, Phone, ChevronLeft, ChevronRight, Share2 } from 'lucide-react'
+import { motion } from 'framer-motion'
+import { Zap, ShoppingCart, TrendingUp, Package, Star, Menu, ChevronLeft, ChevronRight, Share2 } from 'lucide-react'
 import Image from 'next/image'
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogDescription, DialogTrigger } from "@/components/ui/dialog"
 
 const categories = [
   { name: "Eletrônicos", icon: <Zap className="h-8 w-8" />, color: "bg-purple-500" },
