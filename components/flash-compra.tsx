@@ -194,7 +194,7 @@ export function FlashCompraComponent() {
               {isMobile ? (
                 <div className="w-full overflow-x-auto" ref={carouselRef}>
                   <div className="flex">
-                    {featuredProducts.map((product, index) => (
+                    {featuredProducts.map((product) => (
                       <div
                         key={product.id}
                         className="flex-none w-[80vw] mr-4 last:mr-0"
